@@ -296,4 +296,4 @@ impl_tuple! {
 
 // Implement SizeOf for different calling conventions for functions with up to
 // 16 arguments
-impl_function_ptrs!(C, "C");
+impl_function_ptrs!("C");
