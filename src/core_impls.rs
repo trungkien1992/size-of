@@ -296,14 +296,4 @@ impl_tuple! {
 
 // Implement SizeOf for different calling conventions for functions with up to
 // 16 arguments
-impl_function_ptrs! {
-    "C",
-    "Rust",
-    "aapcs",
-    "cdecl",
-    "win64",
-    "sysv64",
-    "system",
-    "stdcall",
-    "fastcall",
-}
+impl_function_ptrs!(C, "C");
